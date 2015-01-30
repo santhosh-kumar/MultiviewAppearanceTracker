@@ -1,0 +1,46 @@
+Introduction 
+
+This page contains software and instructions for Factorized Graph
+Matching (FGM) [1]. In addition, we provide an implementation of the
+spectral matching (SM) algorithm [2] as a baseline. All the functions
+have been written and documented in Matlab format.
+
+[1] F. Zhou and F. De la Torre, "Factorized Graph Matching," in IEEE
+Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
+
+[2] M. Leordeanu and M. Hebert, "A spectral technique for
+correspondence problems using pairwise constraints," in International
+Conference on Computer Vision (ICCV), 2005.
+
+
+
+Installation
+    1. unzip fgm.zip to your folder;
+    2. Run make.m to compile all C++ files;
+    3. Run addPath.m to add sub-directories into the path of Matlab.
+    4. Run demoXXX file (e.g. demoToy, demoHouse).
+
+
+
+Instructions
+The package of aca.zip contains three folders, two setup files and three demo files.
+    ./data: This folder contains motion capture data.
+    ./src: This folder contains the main implmentation of ACA and HACA.
+    ./lib: This folder contains some necessary library functions.
+    ./make.m: Matlab makefile for C++ code.
+    ./addPath.m: Adds the sub-directories into the path of Matlab.
+    ./demoToy.m: Matching of two synthetic graph by FGM.
+    ./demoHouse.m: Matching of two house images by FGM.
+
+
+Copyright
+    This software is free for use in research projects. If you
+    publish results obtained using this software, please use this
+    citation.
+@inproceedings{ZhouD12b,
+   author	= {Feng Zhou and Fernando {De la Torre}},
+   title 	= {Factorized Graph Matching},
+   booktitle	= {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+   year 	= {2012},
+}
+If you have any question, please feel free to contact Feng Zhou (zhfe99@gmail.com).

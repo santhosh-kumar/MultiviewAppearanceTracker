@@ -1,0 +1,15 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=mex 2012.6.30)  13 DEC 2012 18:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**CC=gcc LD=gcc -largeArrayDims -maci64 CFLAGS=$CFLAGS -m64 -isysroot /Develope
+r/SDKs/MacOSX10.7.sdk -mmacosx-version-min=10.4 -Wall LDFLAGS=$LDFLAGS -Wl,-sys
+libroot,/Developer/SDKs/MacOSX10.7.sdk -mmacosx-version-min=10.4 -outdir build/
+maci64/ -c svm_struct_api.c
+
+! Emergency stop.
+<*> CC=gcc 
+           LD=gcc -largeArrayDims -maci64 CFLAGS=$CFLAGS -m64 -isysroot /Dev...
+End of file on the terminal!
+
+No pages of output.
