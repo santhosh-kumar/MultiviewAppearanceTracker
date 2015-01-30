@@ -6,7 +6,7 @@ This is a matlab implementation of the paper "Multiple view discriminative appea
 Usage
 ------------
 
-In order to runthe tracker, use the following command:
+In order to run the tracker, use the following command:
 
 i) Set configuration SetupCameraNetwork.m
 
